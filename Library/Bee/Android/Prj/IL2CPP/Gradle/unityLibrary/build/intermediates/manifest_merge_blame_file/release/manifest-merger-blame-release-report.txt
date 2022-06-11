@@ -1,0 +1,181 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:installLocation="auto"
+6    android:versionCode="1"
+7    android:versionName="6.0.0" >
+8
+9    <uses-sdk
+10        android:minSdkVersion="23"
+10-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+11        android:targetSdkVersion="30" />
+11-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+12
+13    <uses-feature android:glEsVersion="0x00030000" />
+13-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-52
+13-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:17-49
+14    <uses-feature
+14-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-91
+15        android:name="android.hardware.vulkan.version"
+15-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:17-63
+16        android:required="false" />
+16-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:64-88
+17
+18    <supports-gl-texture android:name="GL_KHR_texture_compression_astc_ldr" />
+18-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:3-77
+18-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:24-74
+19
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:3-65
+20-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:20-62
+21
+22    <uses-feature
+22-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:3-97
+23        android:name="android.hardware.sensor.accelerometer"
+23-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:17-69
+24        android:required="false" />
+24-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:70-94
+25    <uses-feature
+25-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:3-88
+26        android:name="android.hardware.touchscreen"
+26-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:17-60
+27        android:required="false" />
+27-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:61-85
+28    <uses-feature
+28-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:3-99
+29        android:name="android.hardware.touchscreen.multitouch"
+29-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:17-71
+30        android:required="false" />
+30-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:72-96
+31    <uses-feature
+31-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:3-108
+32        android:name="android.hardware.touchscreen.multitouch.distinct"
+32-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:17-80
+33        android:required="false" />
+33-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:81-105
+34    <uses-feature
+34-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:3-111
+35        android:name="android.hardware.vr.headtracking"
+35-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:17-64
+36        android:required="true"
+36-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:65-88
+37        android:version="1" />
+37-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:89-108
+38
+39    <application android:extractNativeLibs="true" >
+39-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-24:17
+39-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+40        <activity
+40-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-13:16
+41            android:name="com.unity3d.player.UnityPlayerActivity"
+41-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+42            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode"
+42-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:204-305
+43            android:hardwareAccelerated="false"
+43-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:341-376
+44            android:launchMode="singleTask"
+44-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:172-203
+45            android:resizeableActivity="false"
+45-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:306-340
+46            android:screenOrientation="landscape"
+46-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:134-171
+47            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+47-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-133
+48            <intent-filter>
+48-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-9:23
+49                <action android:name="android.intent.action.MAIN" />
+49-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+49-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+51-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+52                <category android:name="com.oculus.intent.category.VR" />
+52-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:9-66
+52-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:19-63
+53            </intent-filter>
+54
+55            <meta-data
+55-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-82
+56                android:name="unityplayer.UnityActivity"
+56-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-58
+57                android:value="true" />
+57-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:59-79
+58            <meta-data
+58-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:7-78
+59                android:name="android.notch_support"
+59-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:18-54
+60                android:value="true" />
+60-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:55-75
+61            <meta-data
+61-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:7-81
+62                android:name="com.oculus.vr.focusaware"
+62-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:18-57
+63                android:value="true" />
+63-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:58-78
+64        </activity>
+65
+66        <meta-data
+66-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-69
+67            android:name="unity.splash-mode"
+67-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-48
+68            android:value="0" />
+68-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:49-66
+69        <meta-data
+69-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-74
+70            android:name="unity.splash-enable"
+70-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-50
+71            android:value="True" />
+71-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:51-71
+72        <meta-data
+72-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-78
+73            android:name="unity.launch-fullscreen"
+73-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-54
+74            android:value="True" />
+74-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:55-75
+75        <meta-data
+75-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-84
+76            android:name="unity.allow-resizable-window"
+76-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-59
+77            android:value="False" />
+77-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:60-81
+78        <meta-data
+78-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-81
+79            android:name="notch.config"
+79-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-43
+80            android:value="portrait|landscape" />
+80-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:44-78
+81        <meta-data
+81-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:5-97
+82            android:name="com.samsung.android.vr.application.mode"
+82-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:16-70
+83            android:value="vr_only" />
+83-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:71-94
+84        <meta-data
+84-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:5-90
+85            android:name="com.unity.xr.oculus.LowOverheadMode"
+85-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:16-66
+86            android:value="true" />
+86-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:67-87
+87        <meta-data
+87-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:5-88
+88            android:name="com.unity.xr.oculus.LateLatching"
+88-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:16-63
+89            android:value="false" />
+89-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:64-85
+90        <meta-data
+90-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:5-93
+91            android:name="com.unity.xr.oculus.LateLatchingDebug"
+91-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:16-68
+92            android:value="false" />
+92-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:69-90
+93        <meta-data
+93-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:5-90
+94            android:name="com.oculus.supportedDevices"
+94-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:16-58
+95            android:value="quest|quest2" />
+95-->D:\unity\VR2021\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:59-87
+96    </application>
+97
+98</manifest>
