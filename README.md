@@ -8,9 +8,10 @@ This project aims to make a first-person shooting VR game. The game enables user
 
 <h2> Implementation </h2>
 <p> Implementation is divided into main 3 components: </p>
-* Game map designing and leveling and prefabs setup.
-* Scripting and Animation Enemy Agents. 
-* Integration of XR interaction toolkit with oculus quest 2.
+
+* Game map designing and leveling and prefabs setup. <br />
+* Scripting and Animation Enemy Agents. <br />
+* Integration of XR interaction toolkit with oculus quest 2. <br />
 
 <h2> Results </h2>
 <img src="Banner/banner2.png" alt="Game Map"/>
