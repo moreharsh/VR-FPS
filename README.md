@@ -24,3 +24,15 @@ This project aims to make a first-person shooting VR game. The game enables user
 
 <h2>GitHub Link: </h2>
 <a href="https://github.com/moreharsh/VR-FPS"> https://github.com/moreharsh/VR-FPS </a>
+
+
+<h2> Assets used for this project: </h2>
+
+* <a href="https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022#description"> Oculus Integration </a>
+* <a href="https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-for-unity-2018-4-32351#publisher"> Standard Assets (for Unity 2018.4) </a>
+* <a href="https://assetstore.unity.com/packages/3d/characters/humanoids/humans/bodyguards-31711#description"> Bodyguards </a>
+* <a href="https://assetstore.unity.com/packages/3d/environments/industrial/rpg-fps-game-assets-for-pc-mobile-industrial-set-v3-0-101429#description"> RPG/FPS Game Assets for PC/Mobile (Industrial Set v3.0) </a>
+* <a href="https://assetstore.unity.com/packages/3d/props/guns/modern-guns-handgun-129821#description"> Modern Guns: Handgun </a>
+
+<p> Special Thanks to all publishers, for providing such great assets for free.</p>
+
